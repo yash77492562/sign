@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="loginPage view position-relative">
+        <div class="loginFrame container-50 bg-white position-absolute center flex ">
+            <div class="LoginImageFrame w-50">
+                <img src="1.jpg" class="image cover-parent" alt="">
+            </div>
+            <div class="loginInfoFrame flex flex-column flex-center w-50">
+                <div class="login  flex flex-center hide flex-column cover-parent">
+                    <div class="medium">LOGIN</div>
+                    <form action="" class="flex flex-center flex-column" method="post">
+                        <input type="email" class="m-1" name="name" id="name" placeholder="yashyadavpro@..."> 
+                        <input type="password" name="password"  placeholder="password" id="password">
+                        <button type="button" class="m-1 bg-white small cursor-pointer">login</button>
+                    </form>
+                    <div class="secondOption position-relative  m-1">
+                        <hr class="m" style="width: 100px;">
+                        <div class="effect position-absolute bg-white center">OR</div>
+                    </div>
+                    <div class="googleLogin z-2 p-05 m-1 border-black flex flex-center cursor-pointer" style="background-color: rgb(223, 226, 228);">
+                        <img class="image " style="width: 20px;" src="./Google-2015-Favicon-logo-vector-01.svg" alt="">
+                        <span class="p-1">Log in with Google</span>
+                    </div>
+                    <!-- <div class="NoAccount">
+                        Don't have an account ?... <span>sign in </span>
+                    </div> -->
+                </div>
+                <div class="signIn  cover-parent flex flex-center flex-column">  
+                    <div class="medium">SIGN IN</div>
+                    <form action="" class="flex flex-center flex-column" method="post">
+                        <input type="text" class="m-1 mb" name="user" id="user" placeholder="yash"> 
+                        <input type="email" class="m-1 " name="email" id="email" placeholder="yashyadavpro@..."> 
+                        <input type="password" name="password"  placeholder="password" id="password">
+                        <button type="button" class="m-1 bg-white small cursor-pointer">Sign In</button>
+                    </form>
+                    <div class="secondOption position-relative  m-2">
+                        <hr class="m" style="width: 100px;">
+                        <div class="effect position-absolute bg-white center">OR</div>
+                    </div>
+                    <img class="z-2" src="branding_guideline_sample_lt_sq_lg.svg" alt="">
+                    <!-- <div class="AlreadyAccount small w-80">
+                        if you already have an account ... <span>log in </span>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="login.js"></script>
+</body>
+</html>
